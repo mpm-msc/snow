@@ -14,7 +14,7 @@ Deep sorting with counting sort increases coalescing and L2 cache hit rates. Bin
 
 Project
 ====
-Ready for Windows: mingw-w64, VS (2013 and 2017 tested), NMake(compile_commands activated)
+Ready for Windows:  VS (2017 tested), NMake(compile_commands activated)
 Theoretically portable to unix-systems (no dependency restrictions)
 
 Dependencies
