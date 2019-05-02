@@ -2,6 +2,8 @@ Written text of master thesis can be found here: https://github.com/MeyerFabian/
 
 Presentation can be found at: https://github.com/MeyerFabian/msc/blob/master/pres/pres.pdf.
 
+Also take a look at https://github.com/kuiwuchn/GPUMPM which additionally uses warp operations to further speedup the Material Point Method.
+
 Abstract
 ====
 The material point method is allowing for physically based simulations. It has found its way into computer graphics and since then rapidly expanded. The material point method’s hybrid use of Lagrangian particles as a persistent storage and a background uniform Eulerian grid enables solving of various partial differential equations with ease.
