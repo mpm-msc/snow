@@ -1,4 +1,5 @@
 Written text of master thesis can be found here: https://github.com/MeyerFabian/msc.
+Presentation can be found at: https://github.com/MeyerFabian/msc/blob/master/pres/pres.pdf.
 
 Abstract
 ====
