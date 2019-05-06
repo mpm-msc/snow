@@ -1,8 +1,10 @@
+Further Development of https://github.com/MeyerFabian/snow focusing on performance.
+
+Also take a look at [GPUMPM](https://github.com/kuiwuchn/GPUMPM) which additionally uses warp operations to further speedup the Material Point Method.
+
 Written text of master thesis can be found here: [Thesis](https://github.com/MeyerFabian/msc).
 
 Presentation can be found at: [Pres](https://github.com/MeyerFabian/msc/blob/master/pres/pres.pdf).
-
-Also take a look at [GPUMPM](https://github.com/kuiwuchn/GPUMPM) which additionally uses warp operations to further speedup the Material Point Method.
 
 Abstract
 ====
