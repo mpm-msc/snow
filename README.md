@@ -9,7 +9,8 @@ Overview
   * Enforced Test-driven development to monitor numerical precision and performance metrics using NVIDIA Nsight & [OpenGL Timer queries](https://www.khronos.org/registry/OpenGL/extensions/ARB/ARB_timer_query.txt).
   * Implemented SVD from [McAdams et al., 2011](https://minds.wisconsin.edu/bitstream/handle/1793/60736/TR1690.pdf?sequence=1).
   * Tested out different data formats (SoA vs. AoS) using reflection of [magic_get](https://github.com/apolukhin/magic_get). (Would recommend reflection macros though.)
-  * Applied preprocessing in form of binning \& counting sort to increase coalescing \& caching behaviors and stream compaction of active cell regions. See, [Rama C. Hoetzlein, Fast Fixed-Radius Nearest Neighbors](http://on-demand.gputechconf.com/gtc/2014/presentations/S4117-fast-fixed-radius-nearest-neighbor-gpu.pdf).
+  * Applied preprocessing in form of binning \& counting sort to increase coalescing \& caching behaviors. See, [Rama C. Hoetzlein, Fast Fixed-Radius Nearest Neighbors](http://on-demand.gputechconf.com/gtc/2014/presentations/S4117-fast-fixed-radius-nearest-neighbor-gpu.pdf).
+  * Applied preprocessing of stream compaction of active cell regions.
   * Accelerated governing transfers by fusing threads and utilizing the shared memory architecture leading to order-independence of data and up to 10x speedup over a naive GPU implementation.
  
 Abstract
