@@ -1,11 +1,17 @@
-Further Development of https://github.com/MeyerFabian/snow focusing on performance.
+Further Development of https://github.com/MeyerFabian/snow focusing on performance optimization on the GPU. See Evaluation chapter in master thesis for statistics. Written text of master thesis can be found here: [Thesis](https://github.com/MeyerFabian/msc). Presentation can be found at: [Pres](https://github.com/MeyerFabian/msc/blob/master/pres/pres.pdf).
 
 Also take a look at [GPUMPM](https://github.com/kuiwuchn/GPUMPM) which additionally uses warp operations to further speedup the Material Point Method.
 
-Written text of master thesis can be found here: [Thesis](https://github.com/MeyerFabian/msc).
-
-Presentation can be found at: [Pres](https://github.com/MeyerFabian/msc/blob/master/pres/pres.pdf).
-
+Overview
+====
+  * Implemented the MPM using OpenGL Compute for physically based simulations of continuum material.
+  * Designed a shader generator for OpenGL to allow for various permutations of GPGPU compute programs.
+  * Enforced Test-driven development to monitor numerical precision and performance metrics using NVIDIA Nsight & [OpenGL Timer queries](https://www.khronos.org/registry/OpenGL/extensions/ARB/ARB_timer_query.txt).
+  * Implemented SVD from [McAdams et al., 2011](https://minds.wisconsin.edu/bitstream/handle/1793/60736/TR1690.pdf?sequence=1).
+  * Tested out different data formats (SoA vs. AoS) using reflection of [magic_get](https://github.com/apolukhin/magic_get). (Would recommend reflection macros though.)
+  * Applied preprocessing in form of binning \& counting sort to increase coalescing \& caching behaviors and stream compaction of active cell regions. See, [Rama C. Hoetzlein, Fast Fixed-Radius Nearest Neighbors](http://on-demand.gputechconf.com/gtc/2014/presentations/S4117-fast-fixed-radius-nearest-neighbor-gpu.pdf).
+  * Accelerated governing transfers by fusing threads and utilizing the shared memory architecture leading to order-independence of data and up to 10x speedup over a naive GPU implementation.
+ 
 Abstract
 ====
 The material point method is allowing for physically based simulations. It has found its way into computer graphics and since then rapidly expanded. The material point method’s hybrid use of Lagrangian particles as a persistent storage and a background uniform Eulerian grid enables solving of various partial differential equations with ease.
