@@ -28,6 +28,8 @@ Theoretically portable to unix-systems (no dependency restrictions)
 
 Dependencies
 ====
+C++17
+
 [GLEW](http://glew.sourceforge.net/) (Tested 2.1.0, build from source)
 
 [GLFW](http://www.glfw.org/) (Tested 3.2.1, build from source)
@@ -43,3 +45,5 @@ Included Dependencies
 [stb_image](https://github.com/nothings/stb/blob/master/stb_image.h)
 
 [voxelizer](https://github.com/takagi/cl-voxelize/) (A precomputed voxelization of the Stanford-Bunny is already included in resources/model/)
+
+[magic_get](https://github.com/apolukhin/magic_get)
