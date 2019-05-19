@@ -21,7 +21,7 @@ Overview
   
 Comparison
 ====
-Also take a look at [GPUMPM](https://github.com/kuiwuchn/GPUMPM) which additionally uses warp operations to further speedup the Material Point Method.
+Also take a look at [GPUMPM](https://github.com/kuiwuchn/GPUMPM) which was simultaneously beeing developed and additionally uses warp operations to further speedup the Material Point Method.
 
 |                 | This                               | Gao 2018 et al.                |
 |-----------------|------------------------------------|--------------------------------|
