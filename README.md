@@ -4,7 +4,7 @@ Written text of master thesis can be found here: [Thesis](https://github.com/Mey
 
 Presentation can be found at: [Pres](https://github.com/MeyerFabian/msc/blob/master/pres/pres.pdf).
 
-Video of my BA :[youtube!](https://www.youtube.com/watch?v=JlNf7CUW4UY).
+Video of my BA: [Youtube](https://www.youtube.com/watch?v=JlNf7CUW4UY).
 
 Overview
 ====
