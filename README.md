@@ -1,6 +1,6 @@
 Further Development of https://github.com/MeyerFabian/snow focusing on performance optimization on the GPU.
 
-Written text of master thesis can be found here: [Thesis](https://github.com/MeyerFabian/msc). 
+The code is very hard to read due to a lot of different tests. Written text of my master thesis can be found here: [Thesis](https://github.com/MeyerFabian/msc). 
 
 Presentation can be found at: [Pres](https://github.com/MeyerFabian/msc/blob/master/pres/pres.pdf).
 
