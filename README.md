@@ -82,4 +82,4 @@ Included Dependencies
 Possible Improvements
 ====
   * Documentation & Readability
-  * BufferInterface should rely on composition as opposed to inheritance.
+  * BufferDataInterface should rely on composition as opposed to inheritance.
