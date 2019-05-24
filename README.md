@@ -8,7 +8,7 @@ Video of my BA: [Youtube](https://www.youtube.com/watch?v=JlNf7CUW4UY).
 
 Overview
 ====
-  * Implemented the MPM using OpenGL Compute for physically based simulations of continuum material.
+  * Implemented the MPM-Transfers using OpenGL Compute for physically based simulations of continuum material.
   * Tested PIC as well as APIC transfers: [Jiang et al.,2016](https://arxiv.org/pdf/1603.06188.pdf), [Jiang et al. 2015](https://www.math.ucla.edu/~jteran/papers/JSSTS15.pdf)
   * Designed a shader generator for OpenGL to allow for various permutations of GPGPU compute programs.
   * Enforced Test-driven development to monitor numerical precision and performance metrics using NVIDIA Nsight & [OpenGL Timer queries](https://www.khronos.org/registry/OpenGL/extensions/ARB/ARB_timer_query.txt).
