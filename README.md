@@ -1,6 +1,6 @@
 Further Development of https://github.com/MeyerFabian/snow focusing on performance optimization on the GPU.
 
-The code is very hard to read due to a lot of different tests and preprocessor commands. I am focusing on improving it at the moment. Written text of my master thesis can be found here: [Thesis](https://github.com/MeyerFabian/msc). 
+The code is very hard to read due to a lot of different tests and preprocessor commands. I am focusing on [improving](#Possible Improvements) it at the moment. Written text of my master thesis can be found here: [Thesis](https://github.com/MeyerFabian/msc). 
 
 Presentation can be found at: [Pres](https://github.com/MeyerFabian/msc/blob/master/pres/pres.pdf).
 
@@ -78,3 +78,8 @@ Included Dependencies
 [voxelizer](https://github.com/takagi/cl-voxelize/) (A precomputed voxelization of the Stanford-Bunny is already included in resources/model/)
 
 [magic_get](https://github.com/apolukhin/magic_get)
+
+Possible Improvements
+====
+  * Documentation & Readability
+  * an [ECS](https://en.wikipedia.org/wiki/Entity_component_system) would have solved a lot of problems (Registry, Components) with the buffers and would rely more on composition and templates than inheritance. [Kyren](https://kyren.github.io/2018/09/14/rustconf-talk.html), [pyro](https://github.com/MaikKlein/pyro)
