@@ -82,4 +82,4 @@ Included Dependencies
 Possible Improvements
 ====
   * Documentation & Readability
-  * an [ECS](https://en.wikipedia.org/wiki/Entity_component_system) would have solved a lot of problems (Registry, Components) with the buffers and would rely more on composition and templates than inheritance. [Kyren](https://kyren.github.io/2018/09/14/rustconf-talk.html), [pyro](https://github.com/MaikKlein/pyro)
+  * BufferInterface should rely on composition as opposed to inheritance.
