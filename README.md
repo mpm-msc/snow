@@ -82,4 +82,6 @@ Included Dependencies
 Possible Improvements
 ====
   * Documentation & Readability
-  * BufferDataInterface should rely on composition as opposed to inheritance.
+  * BufferDataInterface should rely on composition as opposed to inheritance or go down [ecs](https://en.wikipedia.org/wiki/Entity_component_system)-route  
+  * Tests should rely more on polymorphism 
+  * Test out warp operations
