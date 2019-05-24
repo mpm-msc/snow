@@ -1,6 +1,6 @@
 Further Development of https://github.com/MeyerFabian/snow focusing on performance optimization on the GPU.
 
-The code is very hard to read due to a lot of different tests and preprocessor commands. I am focusing on [improving](Possible%20Improvements) it at the moment. Written text of my master thesis can be found here: [Thesis](https://github.com/MeyerFabian/msc). 
+The code is very hard to read due to a lot of different tests and preprocessor commands. I am focusing on [improving](#possible-improvements) it at the moment. Written text of my master thesis can be found here: [Thesis](https://github.com/MeyerFabian/msc). 
 
 Presentation can be found at: [Pres](https://github.com/MeyerFabian/msc/blob/master/pres/pres.pdf).
 
