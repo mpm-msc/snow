@@ -16,8 +16,8 @@ Overview
   * Tested out different data formats (SoA vs. AoS) using reflection of [magic_get](https://github.com/apolukhin/magic_get). (Would recommend reflection macros though.)
   * Applied preprocessing in form of binning \& counting sort to increase coalescing \& caching behaviors. See, [Rama C. Hoetzlein, Fast Fixed-Radius Nearest Neighbors](http://on-demand.gputechconf.com/gtc/2014/presentations/S4117-fast-fixed-radius-nearest-neighbor-gpu.pdf).
   * Applied preprocessing of stream compaction of active cell regions.
-  * Tested out batching which batches particles in fixed size groups and accumulates their data at once.
-  * Accelerated governing transfers by fusing threads and utilizing the shared memory architecture leading to order-independence of data and up to 10x speedup over a naive GPU implementation.
+  * Tested out batching which batches particles in fixed size groups and accumulates their data at once. Treade-off is register pressure.
+  * Accelerated governing transfers by utilizing the shared memory architecture leading to order-independence of data and up to 10x speedup over a naive GPU implementation.
   
 Comparison
 ====
@@ -85,4 +85,4 @@ Possible Improvements
   * BufferDataInterface should rely on composition as opposed to inheritance or go down [ecs](https://en.wikipedia.org/wiki/Entity_component_system)-route  
   * Tests should rely more on polymorphism 
   * Test out warp operations
-  * Start shared memory G2P-Transfers with threads assigned to particles, threads which correspond to no particle terminate immediately. Use a reduction technique(mapReduce.cpp) to count how many particles are in a grid block.
+  * Start shared memory G2P-Transfers with threads assigned to particles, threads which correspond to no particle terminate immediately. Use a reduction technique(mapReduce.cpp) to count how many particles are in a grid block. Assign 
