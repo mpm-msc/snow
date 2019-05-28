@@ -85,3 +85,4 @@ Possible Improvements
   * BufferDataInterface should rely on composition as opposed to inheritance or go down [ecs](https://en.wikipedia.org/wiki/Entity_component_system)-route  
   * Tests should rely more on polymorphism 
   * Test out warp operations
+  * Start shared memory G2P-Transfers with threads assigned to particles, threads which correspond to no particle terminate immediately. Use a reduction technique(mapReduce.cpp) to count how many particles are in a grid block.
