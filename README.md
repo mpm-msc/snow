@@ -38,9 +38,9 @@ Performance
 |[snow](https://github.com/MeyerFabian/snow)       |45,342    |0.98x   |25.1%  |42.4%    |11.7%      |
 |[snow](https://github.com/MeyerFabian/snow) sorted|23,007	   |1.97x   |43.8%  |59.0%    |23.9%      |
 |global sorted                                     |20,484	   |2.21x   | 7.0%  |**44.0%**|16.1%      |
-|P2G-pull                                          |4,747     |9.55x   | 3.7%  | 6.7%    |39.4%      |
-|P2G-atomic*		                                     |3,148     |14.40x  | 5.3%  | 6.7%    |**65.0%**  |
-|P2G-sync*                                         |**2,595** |17.47x  | 5.9%  | 7.6%    |**67.0%**  |
+|[P2G-pull  |https://github.com/mpm-msc/snow/blob/master/shader/compute/mpm/shared/p2g_pull_simple.glsl]                                        |4,747     |9.55x   | 3.7%  | 6.7%    |39.4%      |
+|[P2G-atomic|https://github.com/mpm-msc/snow/blob/master/shader/compute/mpm/shared/p2g_atomic_batching.glsl]*		                                     |3,148     |14.40x  | 5.3%  | 6.7%    |**65.0%**  |
+|[P2G-sync|https://github.com/mpm-msc/snow/blob/master/shader/compute/mpm/shared/p2g_sync_batching.glsl]*                                         |**2,595** |17.47x  | 5.9%  | 7.6%    |**67.0%**  |
 
 P2G-transfers of one million uniformly positioned particles with random velocities between between [-1.0;1.0] in a 128x 128x128 grid. They form a rotated (unsorted) cube with four particles per cell. Block size is (8,4,4). Methods marked with a star(*) are executed with batching = 4.
 
